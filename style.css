@@ -1,0 +1,8 @@
+
+
+h1{text-align:center}
+
+.image-gallery img { display: block; width: 640px; height: 640px; object-fit: cover; }
+.image-gallery { display: flex; flex-wrap: wrap; gap: 1cm; justify-content: center; }
+.image-gallery a { display: inline-block; border: 1px solid #000000; padding: 6px; background: #fff; }
+
