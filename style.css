@@ -15,4 +15,10 @@ select {
     background-color: lightsalmon;
     margin-right: 1cm ;
 }
+li {
+    font-weight: bold;
+}
+ol{
+    border: 1px solid black;
+}
 
