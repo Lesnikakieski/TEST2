@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<technologies>
+  <technology id="lora" category="lora">
+    <name>LoRa</name>
+    <use>reading of energy meters</use>
+    <example>used in applications</example>
+  </technology>
+  <technology id="Sigfox" category="sigfox">
+    <name>Sigfox</name>
+    <use>reading of energy meters</use>
+    <example>usage in smart cities</example>
+  </technology>
+  <technology id="M2M" category="M2M">
+    <name>M2M</name>
+    <use>Payment terminals</use>
+    <example>usage in shops</example>
+  </technology>
+</technologies>

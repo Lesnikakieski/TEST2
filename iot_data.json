@@ -1,0 +1,21 @@
+[
+    {
+      "name": "LoRa",
+      "use": "reading of energy meters",
+      "active": true,
+      "example":"used in apps"
+
+    },
+    {
+      "name": "sigfox",
+      "use": "reading of energy meters",
+      "active": true,
+      "example": "used in smart cities"
+    },
+    {
+      "name": "M2M",
+      "use": "payment terminals",
+      "active": true,
+      "example":"used in shops"
+    },
+  ]
