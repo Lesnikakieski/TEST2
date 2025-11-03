@@ -1,6 +1,6 @@
 
 
-h1{text-align:center}
+h1{text-align:center; margin-bottom: 1cm}
 
 .image-gallery img { display: block; width: 640px; height: 640px; object-fit: cover; }
 .image-gallery { display: flex; flex-wrap: wrap; gap: 1cm; justify-content: center; }
