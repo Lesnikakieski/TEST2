@@ -1,0 +1,9 @@
+.FormBody {
+    margin-bottom: 1cm;
+}
+
+.FormElement input[type="text"] {
+
+    background-color: lightskyblue;
+
+}
