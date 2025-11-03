@@ -1,9 +1,18 @@
 .FormBody {
-    margin-bottom: 1cm;
+    margin-top: 1cm;
 }
 
-.FormElement input[type="text"] {
+.FormElement input {
 
     background-color: lightskyblue;
+    width: 100%;
 
 }
+select {
+    width: 100%;
+}
+.FormButton {
+    background-color: lightsalmon;
+    margin-right: 1cm ;
+}
+

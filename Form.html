@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <h1>Formularz<h1>
+    <h1 style="text-align: center;">Contact Form <h1>
 
-    <div class="FormBody">
-        <div class="FormElement">
-            <label >Enter Data here</label>
-            <input type="text" for="Field1" name="Field1">
-        </div>
-        <div class="FormElement">
-            <label >Enter More Data here</label>
-            <input type="text" for="Field2" name="Field2">
-        </div>
-
-    </div>
+            <div class="FormBody">
+                <form action="#" method="post">
+                    <div class="FormElement">
+                        <label for="Field1">First name</label>
+                        <input type="text" for="Field1" name="Field1">
+                    </div>
+                    <div class="FormElement">
+                        <label for="Field2">Last name</label>
+                        <input type="text" for="Field2" name="Field2">
+                    </div>
+                    <label for="selection1">What do you work with</label>
+                    <select id="selection1">
+                        <option value="">Choose a option</option>
+                        <option value="OptionA">databases</option>
+                        <option value="OptionB">LowLevel programming</option>
+                    </select>
+                    <label for="selection2">What is your skill level</label>
+                    <select id="selection2">
+                        <option value="">Chose a option</option>
+                        <option value="OptionA">Beginner</option>
+                        <option value="OptionB">Advanced</option>
+                    </select>
+                    <input class="FormButton" type="submit" value="Submit">
+                    <input class="FormButton" type="reset" value="Reset">
+                </form>
+            </div>
 
 </body>
 
